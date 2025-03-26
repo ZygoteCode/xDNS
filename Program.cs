@@ -19,7 +19,7 @@ public class Program
     {
         Process.GetCurrentProcess().PriorityClass = ProcessPriorityClass.RealTime;
 
-        Console.Title = "xDNS | Made by https://github.com/GabryB03/";
+        Console.Title = "xDNS | Made by https://github.com/ZygoteCode/";
         Console.WriteLine("Calculating the DNS average resolution time, please wait a while.");
         Console.WriteLine($"The average resolution time for every DNS query is of {GetAverageResolutionTime()}ms (based on 10 resolutions).");
         
